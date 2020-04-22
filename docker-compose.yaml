@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  minecraft:
+    build: .
+    image: mc_bedrock_debslim:10.3-1.14.60.5
+    container_name: bedrock
+    restart: on-failure
+    ports:
+      - "8008:80/udp"
+    volumes:
+      - "./worlds:/opt/worlds"
+      - "./config:/opt/config"

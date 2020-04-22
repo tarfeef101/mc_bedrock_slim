@@ -1,0 +1,7 @@
+[
+  {
+    "name": "xbox_gamertag",
+    "ignoresPlayerLimit": false,
+    "xuid": "some_decimal_number"
+  }
+]
